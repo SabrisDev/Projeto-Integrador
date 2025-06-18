@@ -1,0 +1,160 @@
+body {
+    font-family: "Averia Libre", system-ui;
+    font-style: normal;
+    background-image: url("../Imagens/fundo\ tampinhas\ lilas.png");
+    background-size: cover;
+}
+
+.fundo-branco {
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 2px 2px 10px #E4E4E4;
+}
+
+header {
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/* LINHA 1 */
+
+#casinhaHome, #sejaParceiro {
+    width: 50%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#homeLabel, #sejaParceiroLabel {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+}
+
+#homeLabel:hover {
+    color: #8C5DD8;
+}
+
+#areaHome, #areaSejaParceiro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+#botaoHome {
+    display: grid;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+#botaoSejaParceiro {
+    display: inline-block;
+    display: grid;
+    vertical-align: middle;
+    line-height: 2;
+}
+
+#sejaParceiroLabel:hover {
+    color: #8C5DD8;
+}
+
+#logoTamPets {
+    width: 150px;
+    height: auto;
+}
+
+/* LINHA 2 */
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: solid 1px #b5b5b5;
+    border-radius: 40px;
+    box-shadow: 2px 2px 10px #626161;
+}
+
+.nav-item {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nav-item:hover {
+    color: #8C5DD8;
+    border-radius: 40px;
+}
+
+#paginatual:only-child {
+    background-color: #8C5DD8;
+    background-size: cover;
+    border-end-start-radius: 10px;
+    border-start-end-radius: 10px;
+    color: black;
+    pointer-events: none;
+}
+
+/* RODAPÉ */
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #E4E4E4;
+    box-shadow: 2px 2px 10px #e5e5e5;
+    box-shadow: 0px -5px 10px #969696;
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #8C5DD8;
+    color: #000000;
+}
+
+
+/* Tudo da pagina */
+#apoiador-fundo{
+    background-color: #8C5DD8;
+    border-end-end-radius: 20px;
+    border-start-end-radius: 20px;
+}
+#main-fundo{
+    background-color: #E4E4E4;
+}
+.img-tmn-base{
+    width: auto;
+}
+.centralizar{
+    display: flex;
+    justify-content: center;
+}
+#titulo-apoio{
+    display: flex;
+    justify-content: center;
+    text-shadow: #8C5DD8 2px 2px;
+    margin-bottom: 2%;
+}
+.fundo-div{
+    border: #000000 solid 1px;
+    margin: 10px;
+    border-radius: 10px;
+       box-shadow: 0px -5px 10px #969696;
+}
+.ini-div{
+    margin-left: 20%;
+}
